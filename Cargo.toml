@@ -8,3 +8,4 @@ edition = "2018"
 clap = {version = "2.33", features = ["yaml"]}
 pancurses = "0.16"
 chrono = "0.4"
+rand = "0.4.2"
