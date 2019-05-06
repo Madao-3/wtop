@@ -1,0 +1,10 @@
+[package]
+name = "wtop"
+version = "0.1.0"
+authors = ["Madao <chrishyman256@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+clap = {version = "2.33", features = ["yaml"]}
+pancurses = "0.16"
+chrono = "0.4"

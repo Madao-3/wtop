@@ -1,0 +1,22 @@
+name: wtop
+version: "1.0"
+about: WTOP
+author: Madao <chrishyman256@gmail.com>
+
+settings:
+  - ArgRequiredElseHelp
+
+args:
+  - opt:
+      help: example option argument from yaml
+      short: o
+      long: option
+      multiple: true
+      takes_value: true
+  - pos:
+      help: example positional argument from yaml
+      index: 1
+      # A list of possible values can be defined as a list
+      possible_values:
+        - fast
+        - slow
